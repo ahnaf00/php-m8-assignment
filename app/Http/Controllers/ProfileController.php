@@ -8,7 +8,7 @@ class ProfileController extends Controller
 {
     public function index(Request $request, $id)
     {
-        $name = "Donald TRump";
+        $name = "Donald Trump";
         $age = "75";
 
         $data = [
